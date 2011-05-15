@@ -1,0 +1,16 @@
+apply plugin: 'groovy'
+apply plugin: 'application'
+apply plugin: 'idea'
+
+version = "1.0.0"
+mainClassName = "org.beaver.BeaverWrapperMain"
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  groovy 'org.codehaus.groovy:groovy:1.8.0'
+  groovy 'commons-cli:commons-cli:1.2'
+  testCompile 'junit:junit:4.8.2'
+}
