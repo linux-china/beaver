@@ -1,3 +1,10 @@
-# Introduction: #
-   It is hard to setup project env to run quickly, and you need install a lot of things to make
-project to run.
+# Introduction:
+
+Beaver is a setup tools to create project's env quickly.
+    $ beaver info
+    $ beaver init
+
+## Structure
+
+Beaver is based on Groovy
+
