@@ -6,5 +6,5 @@ Beaver is a setup tools to create project's env quickly.
 
 ## Structure
 
-Beaver is based on Groovy
+> quote infomation
 
