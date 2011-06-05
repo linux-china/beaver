@@ -12,5 +12,7 @@ repositories {
 dependencies {
   groovy 'org.codehaus.groovy:groovy:1.8.0'
   groovy 'commons-cli:commons-cli:1.2'
-  testCompile 'junit:junit:4.8.2'
+  testCompile("org.spockframework:spock-core:0.5-groovy-1.8") {
+    exclude group: 'org.codehaus.groovy'
+  }
 }
