@@ -20,6 +20,6 @@ public class JdkInstaller extends Installer {
      */
     @Override
     public void execute() {
-        //To change body of implemented methods use File | Settings | File Templates.
+
     }
 }
