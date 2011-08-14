@@ -5,7 +5,7 @@ package org.beaver.installer;
  *
  * @author linux_china
  */
-public class Installer {
+public abstract class Installer {
     /**
      * 安装的目录名
      */
@@ -14,4 +14,9 @@ public class Installer {
      * os name
      */
     String osName = System.getProperty("os.name");
+
+    /**
+     * 执行安装程序
+     */
+    public abstract void execute();
 }
