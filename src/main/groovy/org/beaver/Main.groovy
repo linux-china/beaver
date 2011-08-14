@@ -56,7 +56,7 @@ class Main {
      * @param repo repository
      */
     public static void printItems() {
-        Repository.instance.items.items.each {envItem ->
+        Repository.instance.items.each {envItem ->
             println "${envItem.name}"
         }
     }
